@@ -1,8 +1,6 @@
 body{
+  background-color: #eee;
   font-family: Helvetica;
-}
-body{
-    /* background-color: #eee; */
 }
 
 /*
@@ -13,6 +11,7 @@ Base Responsive Styling
  /* apply a natural box layout model to all elements, but allowing components to change */
  html {
    box-sizing: border-box;
+   text-align: center;
  }
  *, *:before, *:after {
    box-sizing: inherit;
@@ -20,42 +19,20 @@ Base Responsive Styling
 
  /* Basic Responsive Images and Video */
  img,video{
-   width: auto;
+  /* width: auto;
    height: auto;
-   max-width: 100%;
+   max-width: 100%;*/
  }
+.img-grid {
+  display: inline-block;
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+}
 
-/* .article-image{
-   width: 50%;*/
- }
- * {
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
-   text-align: center;
- }
-
- #wrapper {
-   width: 75%;
-   max-width: 1000px;
-   margin: 0 auto;
-   overflow: hidden;
-   text-align: center;
-   /*background-color: lightblue;*/
-   border: 2px solid red;
-   padding: 20px;
- }
-
-/* #header.align-center {
-   display: block;
-   margin: 0px auto;
- }*/
-
- footer {
-   padding: 30px 0;
-   clear: both;
- }
-
- .row{
-   overflow: hidden;
- }
+.img-grid  img{
+  width: 100%;
+}
+main img{
+  width: 100%;
+}
