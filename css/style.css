@@ -1,3 +1,40 @@
 body{
-  background-color: red;
+     background-color: #eee;
+     font-family: Helvetica;
 }
+
+/*
+Base Responsive Styling
+ */
+ /*The following 7 lines are from Paul Irish and apply a border-box model.
+ See this page for more info: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+ /* apply a natural box layout model to all elements, but allowing components to change */
+ html {
+   box-sizing: border-box;
+   text-align: center;
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+
+ /* Basic Responsive Images and Video */
+ img,video{
+  /* width: auto;
+   height: auto;
+   max-width: 100%;*/
+ }
+
+ .img-grid{
+   display: inline-block;
+   width: 33.33%;
+   float: left;
+   padding: 10px;
+ }
+
+ .img-grid img{
+   width: 100%;
+ }
+
+ main img{
+   width: 100%;
+ }
