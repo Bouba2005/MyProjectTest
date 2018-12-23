@@ -1,4 +1,4 @@
-
+jQuery(document).ready(function ($) {
             // Your jQuery code here, using $ to refer to jQuery.
             /*
                This is the code to slide the main navigation up and down.
