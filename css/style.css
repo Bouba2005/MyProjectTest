@@ -17,15 +17,15 @@ Base Responsive Styling
    box-sizing: inherit;
  }
 
- /* Basic Responsive Images and Video */
+ // Basic Responsive Images and Video
  img,video{
-  /* width: auto;
+   width: auto;
    height: auto;
-   max-width: 100%;*/
+   max-width: 100%;
  }
 .img-grid {
   display: inline-block;
-  width: 33.33%;
+  width: 25%;
   float: left;
   padding: 10px;
 }
@@ -35,4 +35,16 @@ Base Responsive Styling
 }
 main img{
   width: 100%;
+}
+.article-title p{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  /*float: left;*/
+}
+
+p{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
