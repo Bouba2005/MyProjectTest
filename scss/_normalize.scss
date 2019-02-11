@@ -18,9 +18,7 @@ It has been modified to remove some of the choices such as font-family, that a d
 
 /* Document
    ========================================================================== */
-   html
-  /* {  font-family: sans-serif;  1 */ /* Removed in order to allow designer to set the default fonts */
- /*   line-height: 1.15;*/ /* 2 */ /* Removed in order to allow designer to set the default line-height */
+   html{
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
 }
