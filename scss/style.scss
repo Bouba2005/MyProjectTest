@@ -23,6 +23,10 @@ Base Responsive Styling
    max-width: 100%;
  }
 
+ figure{
+   margin: 0;
+ }
+
  // .img-grid{
  //   display: inline-block;
  //   width: 33.33%;
@@ -37,7 +41,9 @@ Base Responsive Styling
  // main img{
  //   width: 100%;
  // }
-
+.img-grid h3{
+font-size: 1.8rem;
+}
 
  /* =========================================
     Home page styles
@@ -47,16 +53,101 @@ Base Responsive Styling
 
  .article-title p{
    text-align: center;
+   font-size: 1.2rem;
   /* float: left;*/
  }
-.homepage{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+ @supports (grid-area: auto){
+  .homepage{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+  .site-header h1{
+    font-size: 3.2rem;
+  }
+  .img-grid h3{
+  font-size: 1.5rem;
+  }
+
+  .article-title h2{
+    font-size: 1.8rem;
+  }
 }
+@media (min-width: 600px){
+  .homepage{
+    grid-template-columns: 1fr 1fr;
+  }
+  .site-header h1{
+    font-size: 3.6rem;
+  }
+  .img-grid h3{
+  font-size: 1.8rem;
+  }
+
+  .article-title h2{
+    font-size: 2.3rem;
+  }
+}//end min-width 600px
+
+@media (min-width: 1200px){
+  .homepage{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .site-header h1{
+    font-size: 4rem;
+  }
+  .img-grid h3{
+  font-size: 1.7rem;
+  }
+
+  .article-title h2{
+    font-size: 2.5rem;
+  }
+
+}//end @media min-width 1200px
+
+
+//end @supports
 
  /* =========================================
     About page styles
     ======================================== */
+
+      @supports (grid-area: auto){
+       #About{
+         font-size: 1.5rem;
+         color: red;
+       }
+       .article-image{
+         width: 100%;
+         figure img{
+           width: 100%;
+         }
+       }
+     }
+     @media (min-width: 600px){
+       #About{
+         font-size: 1.7rem;
+        //color: blue;
+       }
+       .article-image{
+         width: 100%;
+         figure img{
+           width: 100%;
+         }
+       }
+     }
+     @media (min-width: 1200px){
+       #About{
+         font-size: 2rem;
+         color: green;
+       }
+       .article-image{
+         width: 100%;
+         figure img{
+           width: 100%;
+         }
+       }
+     }
 
 
 
@@ -69,7 +160,44 @@ Base Responsive Styling
   Inclusion page styles
   ======================================== */
 
+  @supports (grid-area: auto){
+   #inclusion{
+     font-size: 1.5rem;
+     //color: red;
+   }
+   .article-image{
+     width: 100%;
+     figure img{
+       width: 100%;
+     }
+   }
+ }
 
+ @media (min-width: 600px){
+   #inclusion{
+     font-size: 1.7rem;
+     color: blue;
+   }
+   .article-image{
+     width: 100%;
+     figure img{
+       width: 100%;
+     }
+   }
+ }
+
+ @media (min-width: 1200px){
+   #inclusion{
+     font-size: 2rem;
+     color: green;
+   }
+   .article-image{
+     width: 100%;
+     figure img{
+       width: 100%;
+     }
+   }
+ }
 
 
 
@@ -81,9 +209,79 @@ Base Responsive Styling
     Opportunity page styles
     ======================================== */
 
-
-
+      @supports (grid-area: auto){
+       #Opportunity{
+         font-size: 1.5rem;
+         color: red;
+       }
+       .article-image{
+         width: 100%;
+         figure img{
+           width: 100%;
+         }
+       }
+     }
+     @media (min-width: 600px){
+       #Opportunity{
+         font-size: 1.7rem;
+        //color: blue;
+       }
+       .article-image{
+         width: 100%;
+         figure img{
+           width: 100%;
+         }
+       }
+     }
+     @media (min-width: 1200px){
+       #Opportunity{
+         font-size: 2rem;
+         color: green;
+       }
+       .article-image{
+         width: 100%;
+         figure img{
+           width: 100%;
+         }
+       }
+     }
 
     /* =========================================
       Supportiing_Cities
       ======================================== */
+      @supports (grid-area: auto){
+       #Supportiing_Cities{
+         font-size: 1.5rem;
+         color: red;
+       }
+       .article-image{
+         width: 100%;
+         figure img{
+           width: 100%;
+         }
+       }
+     }
+     @media (min-width: 600px){
+       #Supportiing_Cities{
+         font-size: 1.7rem;
+        //color: blue;
+       }
+       .article-image{
+         width: 100%;
+         figure img{
+           width: 100%;
+         }
+       }
+     }
+     @media (min-width: 1200px){
+       #Supportiing_Cities{
+         font-size: 2rem;
+         color: green;
+       }
+       .article-image{
+         width: 100%;
+         figure img{
+           width: 100%;
+         }
+       }
+     }
