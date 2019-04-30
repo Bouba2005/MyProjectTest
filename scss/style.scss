@@ -72,7 +72,7 @@ font-size: 1.8rem;
     font-size: 1.8rem;
   }
 }
-@media (min-width: 600px){
+@media screen and (min-width: 600px){
   .homepage{
     grid-template-columns: 1fr 1fr;
   }
@@ -88,7 +88,7 @@ font-size: 1.8rem;
   }
 }//end min-width 600px
 
-@media (min-width: 1200px){
+@media screen and (min-width: 1200px){
   .homepage{
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -118,31 +118,31 @@ font-size: 1.8rem;
          color: red;
        }
        .article-image{
-         width: 100%;
+           width: 100%;
          figure img{
            width: 100%;
          }
        }
      }
-     @media (min-width: 600px){
+     @media screen and (min-width: 600px){
        #About{
          font-size: 1.7rem;
-        //color: blue;
+         color: blue;
        }
        .article-image{
-         width: 100%;
+          width: 100%;
          figure img{
            width: 100%;
          }
        }
      }
-     @media (min-width: 1200px){
+     @media screen and (min-width: 1200px){
        #About{
          font-size: 2rem;
          color: green;
        }
        .article-image{
-         width: 100%;
+           width: 100%;
          figure img{
            width: 100%;
          }
@@ -166,14 +166,14 @@ font-size: 1.8rem;
      //color: red;
    }
    .article-image{
-     width: 100%;
+       width: 100%;
      figure img{
        width: 100%;
      }
    }
  }
 
- @media (min-width: 600px){
+ @media screen and (min-width: 600px){
    #inclusion{
      font-size: 1.7rem;
      color: blue;
@@ -186,13 +186,13 @@ font-size: 1.8rem;
    }
  }
 
- @media (min-width: 1200px){
+ @media screen and (min-width: 1200px){
    #inclusion{
      font-size: 2rem;
      color: green;
    }
    .article-image{
-     width: 100%;
+       width: 100%;
      figure img{
        width: 100%;
      }
@@ -215,16 +215,16 @@ font-size: 1.8rem;
          color: red;
        }
        .article-image{
-         width: 100%;
+           width: 100%;
          figure img{
            width: 100%;
          }
        }
      }
-     @media (min-width: 600px){
+     @media screen and (min-width: 600px){
        #Opportunity{
          font-size: 1.7rem;
-        //color: blue;
+         color: blue;
        }
        .article-image{
          width: 100%;
@@ -233,7 +233,7 @@ font-size: 1.8rem;
          }
        }
      }
-     @media (min-width: 1200px){
+     @media screen and (min-width: 1200px){
        #Opportunity{
          font-size: 2rem;
          color: green;
@@ -261,10 +261,10 @@ font-size: 1.8rem;
          }
        }
      }
-     @media (min-width: 600px){
+     @media screen and (min-width: 600px){
        #Supportiing_Cities{
          font-size: 1.7rem;
-        //color: blue;
+         color: blue;
        }
        .article-image{
          width: 100%;
@@ -273,7 +273,7 @@ font-size: 1.8rem;
          }
        }
      }
-     @media (min-width: 1200px){
+     @media screen and (min-width: 1200px){
        #Supportiing_Cities{
          font-size: 2rem;
          color: green;
